@@ -27,8 +27,6 @@ file(GLOB all_SRCS
         "${PROJECT_SOURCE_DIR}/src/*.c"
 )
 
-
-
 find_package(Qt5 COMPONENTS Widgets REQUIRED)
 
 add_executable(QTProject main.cpp ${all_SRCS})

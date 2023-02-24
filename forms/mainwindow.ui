@@ -6,25 +6,55 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>489</width>
-    <height>232</height>
+    <width>249</width>
+    <height>152</height>
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Tool</string>
+   <string>MainWindow</string>
   </property>
   <widget class="QWidget" name="centralwidget">
-   <widget class="QPushButton" name="pushButton">
+   <widget class="QPushButton" name="openImage_PushButton">
     <property name="geometry">
      <rect>
-      <x>20</x>
-      <y>150</y>
-      <width>101</width>
-      <height>25</height>
+      <x>10</x>
+      <y>40</y>
+      <width>111</width>
+      <height>31</height>
      </rect>
     </property>
     <property name="text">
      <string>Select Image</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="imgWidth_LineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>80</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="imgHeight_LineEdit">
+    <property name="geometry">
+     <rect>
+      <x>130</x>
+      <y>80</y>
+      <width>113</width>
+      <height>21</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="fileName_LineEdit">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>231</width>
+      <height>21</height>
+     </rect>
     </property>
    </widget>
   </widget>
@@ -33,7 +63,7 @@
     <rect>
      <x>0</x>
      <y>0</y>
-     <width>489</width>
+     <width>249</width>
      <height>22</height>
     </rect>
    </property>

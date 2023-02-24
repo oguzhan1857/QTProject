@@ -61,6 +61,14 @@
         "bit": "cpp",
         "qapplication": "cpp",
         "qmainwindow": "cpp",
-        "qwidget": "cpp"
+        "qwidget": "cpp",
+        "qfiledialog": "cpp",
+        "qmessagebox": "cpp",
+        "qimage": "cpp",
+        "qgraphicswidget": "cpp",
+        "qgraphicsscene": "cpp",
+        "qgraphicsview": "cpp",
+        "qgraphicspixmapitem": "cpp",
+        "qtevents": "cpp"
     }
 }
